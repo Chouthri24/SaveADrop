@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1005624228021",
+    "project_id": "saveadrop-5e69c",
+    "storage_bucket": "saveadrop-5e69c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1005624228021:android:ef33b59f868184790ca6fc",
+        "android_client_info": {
+          "package_name": "com.example.saveadrop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1005624228021-9g4plj08lgn80kpb0gug8v4tmonpv1kl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.saveadrop",
+            "certificate_hash": "99ccf17fdf07f7039be75f86df888af45b3c2d52"
+          }
+        },
+        {
+          "client_id": "1005624228021-c79t3vproerg12urpoihic51o5p44vac.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAS8dcUUII7p3IuILadFfFiBY_O7rMPW28"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1005624228021-c79t3vproerg12urpoihic51o5p44vac.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

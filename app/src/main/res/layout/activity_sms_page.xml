@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/qahiriregular"
+        android:text="send sms"
+        android:textColor="#69D4FF"
+        android:textSize="80sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.163"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+
+        <EditText
+            android:id="@+id/txt_msg"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/righteousregular"
+            android:layout_marginEnd="20dp"
+            android:hint="Enter Message"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/txt_num"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/righteousregular"
+            android:hint="Enter any phone number"
+            android:textSize="18sp"
+
+            />
+
+        <EditText
+            android:id="@+id/txt_cnt"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/righteousregular"
+            android:hint="Enter Count"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_sms"
+        android:fontFamily="@font/righteousregular"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+
+        android:text="Send" />
+
+    <Button
+        android:id="@+id/btn_Back"
+        android:fontFamily="@font/righteousregular"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="Back" />
+
+</LinearLayout>
